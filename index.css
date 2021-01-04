@@ -1,0 +1,234 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* END OF MEYERS RESET */
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=JetBrains+Mono:wght@300&display=swap");
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row div {
+  width: 50%;
+}
+
+.noMargin {
+  margin: 0px;
+}
+
+#do-somethin {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 70px;
+  font-family: "Amatic SC", cursive;
+  font-family: "JetBrains Mono", monospace;
+  margin-top: 40px;
+  margin-bottom: -130px;
+  vertical-align: middle;
+}
+
+#like {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-family: "Amatic SC", cursive;
+  font-family: "JetBrains Mono", monospace;
+  margin-left: 10px;
+  margin-top: 180px;
+  margin-bottom: -180px;
+  /* mix-blend-mode: difference; */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.one {
+  background-color: red;
+  width: 50vh;
+  height: 50vh;
+}
+
+.two {
+  background-color: rgb(255, 255, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50vh;
+  height: 50vh;
+}
+
+.three {
+  background-color: rgb(0, 255, 0);
+  width: 50vh;
+  height: 50vh;
+}
+
+.four {
+  background-color: rgb(13, 207, 255);
+  width: 50vh;
+  height: 50vh;
+}
+
+.one:hover {
+  mix-blend-mode: difference;
+}
+.two:hover {
+  mix-blend-mode: difference;
+}
+
+.hovered {
+  mix-blend-mode: difference;
+  animation-name: hovering;
+  animation-duration: 0.5s;
+}
+
+@keyframes hovering {
+  0% {
+    border-radius: 0;
+  }
+  25% {
+    border-radius: 250px;
+  }
+  50% {
+    border-radius: 0px;
+  }
+  75% {
+    border-radius: 250px;
+  }
+  100% {
+    border-radius: 0;
+  }
+}
+
+.color-blend {
+  mix-blend-mode: color;
+}
