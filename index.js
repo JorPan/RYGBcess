@@ -29,11 +29,38 @@ function playSound(event) {
       quack.volume = 0.5;
       quack.play();
       break;
-    case "p":
-      const airhorn = document.querySelector(`.airhorn`);
-      airhorn.currentTime = 1.2;
-      airhorn.volume = 0.5;
-      airhorn.play();
+    case "w":
+      const water = document.querySelector(`.water`);
+      water.currentTime = 0.27;
+      water.play();
+      water.volume = 2;
+      break;
+    case "e":
+      const ea = document.querySelector(`.ea`);
+      ea.currentTime = 0.5;
+      ea.play();
+      break;
+    case "r":
+      const rocket = document.querySelector(`.rocket`);
+      rocket.currentTime = 2;
+      rocket.play();
+      break;
+    case "a":
+      const applause = document.querySelector(`.applause`);
+      applause.currentTime = 3;
+      applause.volume = 0.5;
+      applause.play();
+      break;
+    case "s":
+      const swag = document.querySelector(`.swag`);
+      swag.currentTime = 0.95;
+      swag.volume = 0.7;
+      swag.play();
+      break;
+    case "d":
+      const doorbell = document.querySelector(`.doorbell`);
+      doorbell.currentTime = 0.09;
+      doorbell.play();
       break;
     case "z":
       const boing = document.querySelector(`.boing`);
@@ -45,11 +72,10 @@ function playSound(event) {
       boing2.currentTime = 0.15;
       boing2.play();
       break;
-    case "a":
-      const applause = document.querySelector(`.applause`);
-      applause.currentTime = 3;
-      applause.volume = 0.5;
-      applause.play();
+    case "c":
+      const meow = document.querySelector(`.meow`);
+      meow.currentTime = 0.15;
+      meow.play();
       break;
     case "f":
       const fart = document.querySelector(`.fart`);
@@ -73,6 +99,12 @@ function playSound(event) {
       laser.volume = 0.7;
       laser.playbackRate = 1;
       laser.play();
+      break;
+    case " ":
+      const airhorn = document.querySelector(`.airhorn`);
+      airhorn.currentTime = 1.2;
+      airhorn.volume = 0.5;
+      airhorn.play();
       break;
   }
 }
