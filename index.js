@@ -77,6 +77,23 @@ function playSound(event) {
       meow.currentTime = 0.15;
       meow.play();
       break;
+    case "v":
+      const kick = document.querySelector(`.kick`);
+      kick.currentTime = 0;
+      kick.play();
+      break;
+    case "b":
+      const hat = document.querySelector(`.hat`);
+      hat.currentTime = 0;
+      hat.volume = 0.4;
+      hat.play();
+      break;
+    case "n":
+      const snare = document.querySelector(`.snare`);
+      snare.currentTime = 0;
+      snare.volume = 0.9;
+      snare.play();
+      break;
     case "f":
       const fart = document.querySelector(`.fart`);
       fart.currentTime = 1.07;
