@@ -45,6 +45,58 @@ function playSound(event) {
       rocket.currentTime = 2;
       rocket.play();
       break;
+    case "t":
+      const time = document.querySelector(`.time`);
+      time.currentTime = 16;
+      time.play();
+      break;
+    case "y":
+      const yell = document.querySelector(`.yell`);
+      yell.currentTime = 0.3;
+      yell.play();
+      break;
+    case "u":
+      const hey = document.querySelector(`.hey`);
+      hey.currentTime = 0.6;
+      hey.play();
+      break;
+    case "i":
+      const meseks = document.querySelector(`.meseks`);
+      meseks.currentTime = 0.1;
+      meseks.volume = 0.7;
+      meseks.play();
+      break;
+    case "o":
+      const wub = document.querySelector(`.wub`);
+      wub.currentTime = 0.1;
+      wub.play();
+      break;
+    case "p":
+      const pimp = document.querySelector(`.pimp`);
+      pimp.currentTime = 0.3;
+      pimp.play();
+      break;
+    case "[":
+      const biatch = document.querySelector(`.biatch`);
+      biatch.currentTime = 0.2;
+      biatch.volume = 0.7;
+      biatch.play();
+      break;
+    case "g":
+      const gunit = document.querySelector(`.gunit`);
+      gunit.currentTime = 0.6;
+      gunit.play();
+      break;
+    case "h":
+      const gun = document.querySelector(`.gun`);
+      gun.currentTime = 11;
+      gun.play();
+      break;
+    case "j":
+      const jail = document.querySelector(`.jail`);
+      jail.currentTime = 0.1;
+      jail.play();
+      break;
     case "a":
       const applause = document.querySelector(`.applause`);
       applause.currentTime = 3;
@@ -61,6 +113,11 @@ function playSound(event) {
       const doorbell = document.querySelector(`.doorbell`);
       doorbell.currentTime = 0.09;
       doorbell.play();
+      break;
+    case "f":
+      const fart = document.querySelector(`.fart`);
+      fart.currentTime = 1.07;
+      fart.play();
       break;
     case "z":
       const boing = document.querySelector(`.boing`);
@@ -94,11 +151,6 @@ function playSound(event) {
       snare.volume = 0.9;
       snare.play();
       break;
-    case "f":
-      const fart = document.querySelector(`.fart`);
-      fart.currentTime = 1.07;
-      fart.play();
-      break;
     case "m":
       const moo = document.querySelector(`.moo`);
       moo.currentTime = 0.15;
@@ -111,7 +163,6 @@ function playSound(event) {
       break;
     case "l":
       const laser = document.querySelector(`.laser`);
-      // const pitchShift = new Tone.PitchShift().toDestination();
       laser.currentTime = 1.4;
       laser.volume = 0.7;
       laser.playbackRate = 1;
