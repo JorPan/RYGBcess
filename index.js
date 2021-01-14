@@ -198,6 +198,12 @@ function playSound(event) {
       laugh.volume = 0.5;
       laugh.play();
       break;
+    case ",":
+      const whistle = document.querySelector(`.whistle`);
+      whistle.currentTime = 0.2;
+      whistle.volume = 0.3;
+      whistle.play();
+      break;
     case " ":
       const airhorn2 = document.querySelector(`.airhorn2`);
       airhorn2.currentTime = 1.2;
