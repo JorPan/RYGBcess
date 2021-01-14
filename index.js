@@ -174,5 +174,41 @@ function playSound(event) {
       airhorn.volume = 0.5;
       airhorn.play();
       break;
+    case "`":
+      const mario = document.querySelector(`.mario`);
+      mario.currentTime = 0.5;
+      mario.volume = 0.5;
+      mario.play();
+      break;
+    case "1":
+      const coin = document.querySelector(`.coin`);
+      coin.currentTime = 0.1;
+      coin.volume = 0.7;
+      coin.play();
+      break;
+    case "2":
+      const yahoo = document.querySelector(`.yahoo`);
+      yahoo.currentTime = 0.35;
+      yahoo.volume = 0.4;
+      yahoo.play();
+      break;
+    case "3":
+      const jump = document.querySelector(`.jump`);
+      jump.currentTime = 0.2;
+      jump.volume = 0.2;
+      jump.play();
+      break;
+    case "4":
+      const mush = document.querySelector(`.mush`);
+      mush.currentTime = 0.17;
+      mush.volume = 0.1;
+      mush.play();
+      break;
+    case "5":
+      const dead = document.querySelector(`.dead`);
+      dead.currentTime = 0.44;
+      dead.volume = 0.3;
+      dead.play();
+      break;
   }
 }
