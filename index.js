@@ -76,7 +76,7 @@ function playSound(event) {
       pimp.currentTime = 0.3;
       pimp.play();
       break;
-    case "[":
+    case "]":
       const biatch = document.querySelector(`.biatch`);
       biatch.currentTime = 0.2;
       biatch.volume = 0.7;
@@ -168,11 +168,41 @@ function playSound(event) {
       laser.playbackRate = 1;
       laser.play();
       break;
-    case " ":
+    case "[":
       const airhorn = document.querySelector(`.airhorn`);
       airhorn.currentTime = 1.2;
       airhorn.volume = 0.5;
       airhorn.play();
+      break;
+    case "-":
+      const witch = document.querySelector(`.witch`);
+      witch.currentTime = 0.3;
+      witch.volume = 0.5;
+      witch.play();
+      break;
+    case ";":
+      const crank = document.querySelector(`.crank`);
+      crank.currentTime = 2.8;
+      crank.volume = 0.5;
+      crank.play();
+      break;
+    case "'":
+      const echo = document.querySelector(`.echo`);
+      echo.currentTime = 0.5;
+      echo.volume = 0.5;
+      echo.play();
+      break;
+    case "=":
+      const laugh = document.querySelector(`.laugh`);
+      laugh.currentTime = 0.2;
+      laugh.volume = 0.5;
+      laugh.play();
+      break;
+    case " ":
+      const airhorn2 = document.querySelector(`.airhorn2`);
+      airhorn2.currentTime = 1.2;
+      airhorn2.volume = 0.5;
+      airhorn2.play();
       break;
     case "`":
       const mario = document.querySelector(`.mario`);
@@ -181,22 +211,22 @@ function playSound(event) {
       mario.play();
       break;
     case "1":
-      const coin = document.querySelector(`.coin`);
-      coin.currentTime = 0.1;
-      coin.volume = 0.7;
-      coin.play();
-      break;
-    case "2":
       const yahoo = document.querySelector(`.yahoo`);
       yahoo.currentTime = 0.35;
       yahoo.volume = 0.4;
       yahoo.play();
       break;
-    case "3":
+    case "2":
       const jump = document.querySelector(`.jump`);
       jump.currentTime = 0.2;
       jump.volume = 0.2;
       jump.play();
+      break;
+    case "3":
+      const coin = document.querySelector(`.coin`);
+      coin.currentTime = 0.1;
+      coin.volume = 0.7;
+      coin.play();
       break;
     case "4":
       const mush = document.querySelector(`.mush`);
@@ -209,6 +239,36 @@ function playSound(event) {
       dead.currentTime = 0.44;
       dead.volume = 0.3;
       dead.play();
+      break;
+    case "6":
+      const mortal = document.querySelector(`.mortal`);
+      mortal.currentTime = 0.2;
+      mortal.volume = 0.3;
+      mortal.play();
+      break;
+    case "7":
+      const punch = document.querySelector(`.punch`);
+      punch.currentTime = 0.9;
+      punch.volume = 0.4;
+      punch.play();
+      break;
+    case "8":
+      const propane = document.querySelector(`.propane`);
+      propane.currentTime = 0;
+      propane.volume = 0.7;
+      propane.play();
+      break;
+    case "9":
+      const cocaine = document.querySelector(`.cocaine`);
+      cocaine.currentTime = 1.1;
+      cocaine.volume = 1;
+      cocaine.play();
+      break;
+    case "0":
+      const toot = document.querySelector(`.toot`);
+      toot.currentTime = 0.4;
+      toot.volume = 0.3;
+      toot.play();
       break;
   }
 }
