@@ -204,6 +204,27 @@ function playSound(event) {
       whistle.volume = 0.3;
       whistle.play();
       break;
+    case "?":
+      const excused = document.querySelector(`.excused`);
+      excused.currentTime = 0.1;
+      excused.volume = 1;
+      excused.play();
+      break;
+    case "/":
+      const heisenberg = document.querySelector(`.heisenberg`);
+      heisenberg.currentTime = 13.4;
+      heisenberg.volume = 1;
+      heisenberg.play();
+      break;
+    case ".":
+      const fink = document.querySelector(`.fink`);
+      fink.currentTime = 25.5;
+      fink.volume = 0.3;
+      fink.play();
+      setTimeout(() => {
+        fink.volume = 0;
+      }, 3000);
+      break;
     case " ":
       const airhorn2 = document.querySelector(`.airhorn2`);
       airhorn2.currentTime = 1.2;
@@ -259,22 +280,80 @@ function playSound(event) {
       punch.play();
       break;
     case "8":
+      const ko = document.querySelector(`.ko`);
+      ko.currentTime = 0;
+      ko.volume = 0.7;
+      ko.play();
+      break;
+    case "9":
       const propane = document.querySelector(`.propane`);
       propane.currentTime = 0;
       propane.volume = 0.7;
       propane.play();
       break;
-    case "9":
+
+    case "0":
       const cocaine = document.querySelector(`.cocaine`);
       cocaine.currentTime = 1.1;
       cocaine.volume = 1;
       cocaine.play();
       break;
-    case "0":
+    case ">":
       const toot = document.querySelector(`.toot`);
       toot.currentTime = 0.4;
-      toot.volume = 0.3;
+      toot.volume = 0.4;
       toot.play();
+      break;
+    case "<":
+      const train = document.querySelector(`.train`);
+      train.currentTime = 16.86;
+      train.volume = 0.6;
+      train.play();
+      break;
+    case "!":
+      const wow = document.querySelector(`.wow`);
+      wow.currentTime = 0.2;
+      wow.volume = 0.5;
+      wow.play();
+      break;
+    case "@":
+      const party = document.querySelector(`.party`);
+      party.currentTime = 3.7;
+      party.volume = 1;
+      party.play();
+      setTimeout(() => {
+        party.volume = 0;
+      }, 15000);
+      break;
+    case "~":
+      const action = document.querySelector(`.action`);
+      action.currentTime = 0.62;
+      action.volume = 1;
+      action.play();
+      break;
+    case "Q":
+      const badum = document.querySelector(`.badum`);
+      badum.currentTime = 0.17;
+      badum.volume = 1;
+      badum.play();
+      break;
+    case "W":
+      const wah = document.querySelector(`.wah`);
+      wah.currentTime = 0.62;
+      wah.volume = 1;
+      wah.play();
+      break;
+    case "B":
+      const bopit = document.querySelector(`.bopit`);
+      bopit.currentTime = 6;
+      bopit.volume = 1;
+      bopit.play();
+      break;
+    case "N":
+      const nick = document.querySelector(`.nick`);
+      nick.currentTime = 5.1;
+      nick.volume = 0.7;
+      nick.play();
       break;
   }
 }
