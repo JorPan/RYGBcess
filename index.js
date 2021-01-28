@@ -355,5 +355,17 @@ function playSound(event) {
       nick.volume = 0.7;
       nick.play();
       break;
+    case "T":
+      const tegridy = document.querySelector(`.tegridy`);
+      tegridy.currentTime = 1;
+      tegridy.volume = 1;
+      tegridy.play();
+      break;
+    case "P":
+      const panda = document.querySelector(`.panda`);
+      panda.currentTime = 0.47;
+      panda.volume = 1;
+      panda.play();
+      break;
   }
 }
