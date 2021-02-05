@@ -331,6 +331,12 @@ function playSound(event) {
       action.volume = 1;
       action.play();
       break;
+    case "$":
+      const kaching = document.querySelector(`.kaching`);
+      kaching.currentTime = 0.3;
+      kaching.volume = 1;
+      kaching.play();
+      break;
     case "Q":
       const badum = document.querySelector(`.badum`);
       badum.currentTime = 0.17;
@@ -342,6 +348,12 @@ function playSound(event) {
       wah.currentTime = 0.62;
       wah.volume = 1;
       wah.play();
+      break;
+    case "E":
+      const woody = document.querySelector(`.woody`);
+      woody.currentTime = 0.2;
+      woody.volume = 1;
+      woody.play();
       break;
     case "B":
       const bopit = document.querySelector(`.bopit`);
@@ -366,6 +378,42 @@ function playSound(event) {
       panda.currentTime = 0.47;
       panda.volume = 1;
       panda.play();
+      break;
+    case "I":
+      const iverson = document.querySelector(`.iverson`);
+      iverson.currentTime = 15;
+      iverson.volume = 1;
+      iverson.play();
+      break;
+    case "H":
+      const nelson = document.querySelector(`.nelson`);
+      nelson.currentTime = 0.3;
+      nelson.volume = 0.6;
+      nelson.play();
+      break;
+    case "D":
+      const homer = document.querySelector(`.homer`);
+      homer.currentTime = 0.2;
+      homer.volume = 0.7;
+      homer.play();
+      break;
+    case "L":
+      const griffin = document.querySelector(`.griffin`);
+      griffin.currentTime = 0.3;
+      griffin.volume = 0.5;
+      griffin.play();
+      break;
+    case "A":
+      const arriba = document.querySelector(`.arriba`);
+      arriba.currentTime = 1.2;
+      arriba.volume = 1;
+      arriba.play();
+      break;
+    case "S":
+      const hummus = document.querySelector(`.hummus`);
+      hummus.currentTime = 0;
+      hummus.volume = 1;
+      hummus.play();
       break;
   }
 }
