@@ -415,5 +415,17 @@ function playSound(event) {
       hummus.volume = 1;
       hummus.play();
       break;
+    case "K":
+      const karate = document.querySelector(`.karate`);
+      karate.currentTime = 25;
+      karate.volume = 1;
+      karate.play();
+      break;
+    case "C":
+      const chicken = document.querySelector(`.chicken`);
+      chicken.currentTime = 0;
+      chicken.volume = 1;
+      chicken.play();
+      break;
   }
 }
