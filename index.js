@@ -427,5 +427,11 @@ function playSound(event) {
       chicken.volume = 1;
       chicken.play();
       break;
+    case "R":
+      const howdy = document.querySelector(`.howdy`);
+      howdy.currentTime = 3.8;
+      howdy.volume = 1;
+      howdy.play();
+      break;
   }
 }
