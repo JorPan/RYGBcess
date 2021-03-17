@@ -433,5 +433,11 @@ function playSound(event) {
       howdy.volume = 1;
       howdy.play();
       break;
+    case "F":
+      const woohoo = document.querySelector(`.woohoo`);
+      woohoo.currentTime = 1;
+      woohoo.volume = 0.5;
+      woohoo.play();
+      break;
   }
 }
