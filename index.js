@@ -439,5 +439,11 @@ function playSound(event) {
       woohoo.volume = 0.5;
       woohoo.play();
       break;
+    case "J":
+      const kiss = document.querySelector(`.kiss`);
+      kiss.currentTime = 0.8;
+      kiss.volume = 1;
+      kiss.play();
+      break;
   }
 }
