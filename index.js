@@ -448,7 +448,7 @@ function playSound(event) {
     case "Z":
       const cuckoo = document.querySelector(`.cuckoo`);
       cuckoo.currentTime = 0.1;
-      cuckoo.volume = 0.6;
+      cuckoo.volume = 0.5;
       cuckoo.play();
       break;
   }
