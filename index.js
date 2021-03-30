@@ -445,7 +445,7 @@ function playSound(event) {
       kiss.volume = 1;
       kiss.play();
       break;
-    case "X":
+    case "Z":
       const cuckoo = document.querySelector(`.cuckoo`);
       cuckoo.currentTime = 0.1;
       cuckoo.volume = 0.6;
