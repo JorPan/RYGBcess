@@ -451,5 +451,11 @@ function playSound(event) {
       cuckoo.volume = 0.5;
       cuckoo.play();
       break;
+    case "V":
+      const stupid = document.querySelector(`.stupid`);
+      stupid.currentTime = 0.5;
+      stupid.volume = 0.7;
+      stupid.play();
+      break;
   }
 }
