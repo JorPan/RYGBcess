@@ -25,7 +25,7 @@ function playSound(event) {
   switch (event.key) {
     case "q":
       const quack = document.querySelector(`.quack`);
-      quack.currentTime = 0.2;
+      quack.currentTime = 0.21;
       quack.volume = 0.5;
       quack.play();
       break;
