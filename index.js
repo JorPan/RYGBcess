@@ -373,6 +373,12 @@ function playSound(event) {
       tegridy.volume = 1;
       tegridy.play();
       break;
+    case "Y":
+      const winner = document.querySelector(`.winner`);
+      winner.currentTime = 0.7;
+      winner.volume = 1;
+      winner.play();
+      break;
     case "P":
       const panda = document.querySelector(`.panda`);
       panda.currentTime = 0.47;
