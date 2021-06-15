@@ -13,13 +13,17 @@ There are currently over 75 sounds mapped to the keys of the keyboard a-z, 0-9, 
 
 # Some of my favorite sounds:
   v = 808 kick
+  
   b = 808 hi hat
+  
   n = 808 snare
   
-  "[" or space = airhorn (so hot it had to be on their twice!)
+  "[" or space = airhorn (so hot it had to be on there twice!)
   
   c = cat meow
+  
   m = cow moo
+  
   d = ding dong
   
   1-8 and backtick = video game sounds
