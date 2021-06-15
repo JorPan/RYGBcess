@@ -11,4 +11,20 @@
 
 There are currently over 75 sounds mapped to the keys of the keyboard a-z, 0-9, and special characters. Don't forget to press shift and try the same keys as well - many of the keys have different sounds on shift.
 
-# That's really about all! Just have some fun with it! 
+# Some of my favorite sounds:
+  v = 808 kick
+  b = 808 hi hat
+  n = 808 snare
+  
+  "[" or space = airhorn (so hot it had to be on their twice!)
+  
+  c = cat meow
+  m = cow moo
+  d = ding dong
+  
+  1-8 and backtick = video game sounds
+  
+  Explore the rest of the keyboard to find your faves! 
+  
+
+# That's all folks Just have some fun with it! 
