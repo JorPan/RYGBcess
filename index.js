@@ -1,8 +1,8 @@
 console.log("do somethin");
-let one = document.querySelector(".one");
-let two = document.querySelector(".two");
-let three = document.querySelector(".three");
-let four = document.querySelector(".four");
+const one = document.querySelector(".one");
+const two = document.querySelector(".two");
+const three = document.querySelector(".three");
+const four = document.querySelector(".four");
 
 one.addEventListener("mouseenter", hover);
 one.addEventListener("mouseleave", unhover);
